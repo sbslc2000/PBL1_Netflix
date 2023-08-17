@@ -1,0 +1,25 @@
+#header {
+    height:80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position:relative;
+    z-index: 10;
+}
+
+
+#header svg{
+    height:40px;
+    color: red;
+    fill: currentColor;
+}
+
+#loginBtn {
+    width:80px;
+    height:36px;
+    background-color: red;
+    color:white;
+    font-size:18px;
+    font-weight: bold;
+}

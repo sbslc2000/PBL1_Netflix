@@ -1,0 +1,46 @@
+
+
+.movies-wrapper {
+    padding: 20px 0px 20px 0px;
+}
+.movies-title {
+    font-size:24px;
+    font-weight:700;
+    padding: 10px 0;
+}
+
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.movies-item {
+    margin: 0 3px;
+}
+
+.movie-img {
+    width:250px;
+    height:150px;
+}
+
+.movies-wrapper.original .movies-item {
+    margin: 0 28px;
+}
+
+.movies-wrapper.original .movie-img {
+    width:250px;
+    height:400px;
+}
+
+.movies-list .movies-item:nth-child(1) {
+    margin-left: 0;
+}
+
+.movies-list .movies-item:nth-last-child(1) {
+    margin-right: 0;
+}

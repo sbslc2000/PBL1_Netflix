@@ -1,0 +1,29 @@
+#jumbotron {
+    background-image: url("../assets/jumbotron.jpg");
+    height:700px;
+    position:relative;
+    bottom:80px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#jumbotron > h1 {
+    font-size:80px;
+    font-weight:700;
+    height:80px;
+    z-index:1;
+}
+
+#jumbotron::before {
+    content: "";
+    position:absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    opacity: 1;
+}

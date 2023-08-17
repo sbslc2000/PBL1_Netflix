@@ -1,0 +1,17 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    padding: 30px 50px;
+}
