@@ -1,8 +1,8 @@
 #jumbotron {
     background-image: url("../assets/jumbotron.jpg");
     height:700px;
-    position:relative;
     bottom:80px;
+    position:relative;
 
     display: flex;
     flex-wrap: wrap;
